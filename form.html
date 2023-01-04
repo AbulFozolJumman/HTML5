@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 3(HTML5 Form) -->
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="dropdown-nav.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="audio-video.html">Media</a>
+                    </li>
+                    <li>
+                        <a href="semantic.html">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="form.html">Pitha</a>
+                    </li>
+                    <li>
+                        <a href="table.html">Dudes</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <h2>Welcome to Pithaghor</h2>
+        <form>
+            <label for="name">Your Name
+                <input type="text" id="name" placeholder="Your Name">
+            </label>
+            <label for="email">Your Name
+                <input type="email" id="email" placeholder="Your Email">
+            </label>
+            <label for="phoneNumber">Phone Number
+                <input type="email" id="phoneNumber" placeholder="Your Phone Number">
+            </label>
+            <fieldset>
+                <legend>Choose one Pitha</legend>
+                <label for="chitoi">
+                    <input type="radio" name="pitha" id="chitoi">Chitoi
+                </label>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="vapa">Vapa
+                </label>
+                <label for="puli">
+                    <input type="radio" name="pitha" id="puli">Puli
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose Vorta</legend>
+                <label for="sorisha">
+                    <input type="checkbox" name="Vorta" id="sorisha">Sorisha
+                </label>
+                <label for="shutki">
+                    <input type="checkbox" name="pitha" id="shutki">Shutki
+                </label>
+                <label for="zira">
+                    <input type="checkbox" name="pitha" id="zira">Zira
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special information</legend>
+                <textarea name="" id="" cols="60" rows="3"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
